@@ -2,28 +2,36 @@ header {
   background-color: black;
 }
 
-.navigation_bar {
+.nav {
   color: white;
+}
+
+.nav__logo1 {
   display: inline-block;
 }
 
-img {
+.nav__h1 {
   display: inline-block;
 }
 
-h1 {
+.nav__liste1 {
   display: inline-block;
+  margin-left: 20%;
 }
 
-ul {
-  display: inline-block;
-}
-
-li {
+.nav__liste1__li {
   display: inline;
 }
 
-P {
+.nav__hote {
+  display: inline-block;
+}
+
+.nav__icon {
+  display: inline-block;
+}
+
+.nav__menu {
   display: inline-block;
 }
 
@@ -42,5 +50,4 @@ P {
   display: block;
   background-color: #e9ba20;
 }
-
 /*# sourceMappingURL=style.css.map */

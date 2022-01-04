@@ -1,44 +1,52 @@
 header {
-    background-color: black;
+  background-color: black;
 }
 
-.navigation_bar {
-    color: white;
-    display: inline-block;
-}
-img {
-    display: inline-block;
-}
-h1 {
-    display: inline-block;
-}
-ul {
-    display: inline-block;
-}
-  li {
-      display: inline;
-  }
-P {
-    display: inline-block;
-}
+.nav {
+  color: white;
 
+  &__logo1 {
+    display: inline-block;
+  }  
+    &__h1 {
+      display: inline-block;
+    }
+      &__liste1 {
+          display: inline-block;
+          margin-left: 20%;
 
-
+        &__li {
+          display: inline;
+        }
+      }
+        
+           &__hote {
+        display: inline-block;
+           }
+     &__icon {
+          display: inline-block;
+     }
+     &__menu {
+          display: inline-block;
+         }
+     
+    
+   }
+  
 
 
 
 .bloque1 {
-    background-color: #969491;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
+  background-color: #969491;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
 }
 .bouton1 {
-    display: block;
-    background-color: rgb(233, 186, 32);
+  display: block;
+  background-color: rgb(233, 186, 32);
 }
-
