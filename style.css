@@ -1,0 +1,46 @@
+header {
+  background-color: black;
+}
+
+.navigation_bar {
+  color: white;
+  display: inline-block;
+}
+
+img {
+  display: inline-block;
+}
+
+h1 {
+  display: inline-block;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  display: inline;
+}
+
+P {
+  display: inline-block;
+}
+
+.bloque1 {
+  background-color: #969491;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.bouton1 {
+  display: block;
+  background-color: #e9ba20;
+}
+
+/*# sourceMappingURL=style.css.map */
