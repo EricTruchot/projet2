@@ -8,15 +8,20 @@ header {
 
 .nav__logo1 {
   display: inline-block;
+  width: 2%;
+  height: auto;
+  position: relative;
+  top: 10px;
 }
 
 .nav__h1 {
   display: inline-block;
+  font-size: 98%;
 }
 
 .nav__liste1 {
   display: inline-block;
-  margin-left: 20%;
+  margin-left: 32%;
 }
 
 .nav__liste1__li {
@@ -25,14 +30,52 @@ header {
 
 .nav__hote {
   display: inline-block;
+  margin-left: 26%;
 }
 
-.nav__icon {
+.nav__icon1 {
   display: inline-block;
+  width: 2%;
+  height: auto;
+  position: relative;
+  top: 10px;
 }
 
 .nav__menu {
   display: inline-block;
+  background-color: white;
+  height: 35px;
+  width: 75px;
+  border-radius: 30%;
+}
+
+.nav__menu__icon2 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 10px;
+}
+
+.nav__menu__icon3 {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  position: relative;
+  top: 10px;
+}
+
+.bord_recherche {
+  display: inline-block;
+  background-color: white;
+  height: 150px;
+  width: 350px;
+  border-radius: 30%;
+}
+
+.recherche {
+  display: inline-block;
+  color: white;
 }
 
 .bloque1 {

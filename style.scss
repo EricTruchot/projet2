@@ -1,5 +1,5 @@
 header {
-  background-color: black;
+ background-color: black;
 }
 
 .nav {
@@ -7,13 +7,18 @@ header {
 
   &__logo1 {
     display: inline-block;
+    width: 2%;
+    height: auto;
+    position: relative;
+    top: 10px;
   }  
     &__h1 {
       display: inline-block;
+      font-size: 98%;
     }
       &__liste1 {
           display: inline-block;
-          margin-left: 20%;
+          margin-left: 32%;
 
         &__li {
           display: inline;
@@ -22,17 +27,89 @@ header {
         
            &__hote {
         display: inline-block;
+        margin-left: 26%;
+
+    
            }
-     &__icon {
+     &__icon1 {
           display: inline-block;
+          width: 2%;
+          height: auto;
+          position: relative;
+          top: 10px;
      }
      &__menu {
-          display: inline-block;
+         display: inline-block;
+         background-color: rgb(255, 255, 255);
+         height: 35px;
+         width: 75px;
+         border-radius: 30%;
+         
+
+     &__icon2 {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 10px;  
          }
-     
-    
+       &__icon3 {
+        display: inline-block;
+        width: 200px;
+        height: auto;
+        position: relative;
+        top: 10px;
+         }
+        }
    }
   
+
+
+
+.bord_recherche {
+    display: inline-block;
+    background-color: white;
+    height: 150px;
+    width: 350px;
+    border-radius: 30%;
+}
+
+.recherche {
+    display: inline-block;
+    color: white;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
