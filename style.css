@@ -1,0 +1,155 @@
+header {
+  background-color: black;
+}
+
+.nav {
+  color: white;
+}
+
+.nav__logo1 {
+  display: inline-block;
+  width: 2%;
+  height: auto;
+  position: relative;
+  top: 10px;
+}
+
+.nav__h1 {
+  display: inline-block;
+  font-size: 98%;
+}
+
+.nav__liste1 {
+  display: inline-block;
+  margin-left: 32%;
+}
+
+.nav__liste1__li {
+  display: inline;
+}
+
+.nav__hote {
+  display: inline-block;
+  margin-left: 26%;
+}
+
+.nav__icon1 {
+  display: inline-block;
+  width: 2%;
+  height: auto;
+  position: relative;
+  top: 10px;
+}
+
+.nav__menu {
+  display: inline-block;
+  background-color: white;
+  height: 35px;
+  width: 75px;
+  border-radius: 30%;
+}
+
+.nav__menu__icon2 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 10px;
+}
+
+.nav__menu__icon3 {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  position: relative;
+  top: 10px;
+}
+
+.bord_recherche {
+  display: flex;
+  justify-content: center;
+  margin-left: 36%;
+  background-color: white;
+  height: 50px;
+  width: 420px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.recherche {
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+
+.bloque1 {
+  background-image: url(./images/img1.jpg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 500px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px
+}
+
+.bouton1 {
+  display: flex;
+  background-color: #ffffff;
+  color: rgb(161, 43, 116);
+  border-radius: 15px 15px 15px 15px;
+  padding: 15px 15px;
+  max-width: 150px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloque2 {
+  background-image: url(./images/img2.jpg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 500px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px
+}
+.bloque3 {
+  display: flex;
+  justify-content: space-around;
+
+
+}
+.carte1 {
+  background-image: url(./images/carte1.jpeg);
+  width: 300px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
