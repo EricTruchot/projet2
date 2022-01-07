@@ -1,6 +1,9 @@
+/*# sourceMappingURL=style.css.map */
 header {
   background-color: black;
 }
+
+/* Bandeau haut */
 
 .nav {
   color: white;
@@ -25,6 +28,7 @@ header {
 
 .nav__liste1__li {
   display: inline;
+  font: small-caps bold 18px sans-serif;
 }
 
 .nav__hote {
@@ -63,6 +67,8 @@ header {
   top: 10px;
 }
 
+/* Barre de recherche */
+
 .bord_recherche {
   display: flex;
   justify-content: center;
@@ -77,7 +83,10 @@ header {
   display: flex;
   justify-content: center;
   color: rgb(0, 0, 0);
+  font: caption 12px;
 }
+
+/* Bloque 1 */
 
 .bloque1 {
   background-image: url(https://static.wikia.nocookie.net/lotr/images/a/a0/BlackGate.jpg/revision/latest?cb=20211129065934);
@@ -110,6 +119,8 @@ header {
   align-items: center;
 }
 
+/* Bloque 2 */
+
 .bloque2 {
   background-image: url(https://culturellementvotre.fr/wp-content/uploads/2015/02/limbo-inception.jpg);
   display: block;
@@ -128,9 +139,13 @@ header {
   align-items: center;
   margin-bottom: 50px
 }
+
+/* Bloque 3 */
+
 .bloque3 {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 10px;
 
 
 }
@@ -198,8 +213,11 @@ header {
   font-weight: bold;
 }
 
+/* Bloque 4 */
 
-
+.container {
+  margin-bottom: 50px;
+}
 .card1 {
   background-image: url(https://resize.prod.femina.ladmedia.fr/rblr/1401,978/img/var/2021-04/titanicepave.jpg);
   background-repeat: no-repeat;
@@ -207,6 +225,8 @@ header {
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-weight: bold;
+  width: 630px;
+  height: 450px;
 }
 
 .card2 {
@@ -216,9 +236,76 @@ header {
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-weight: bold;
+  width: 630px;
+  height: 450px;
+}
+
+/* Bloque 5 */
+
+.bloque5 {
+  background-image: url(https://imgsrc.cineserie.com/2020/02/saw-comment-est-ne-le-film-d-horreur-culte-de-james-wan.jpg?ver=1);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 500px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px
+}
+
+/* Partie inferieur */
+
+.bas {
+  background-color: rgb(223, 223, 223);
 }
 
 
 
+#bord th {
+  background-color: #969696;
+  color: white;
+  font-style: italic;
+}
+#assistance th {
 
-/*# sourceMappingURL=style.css.map */
+  font-style: italic;
+}
+
+
+/* --MEDIAQUERIES-- */
+
+@media screen and (max-width: 700px){
+  .nav__logo1, .nav__hote, .nav__icon1 {
+    display: none;
+  }
+  .nav__liste1{
+    margin-left: 10%;
+  }
+  .nav__menu {
+    margin-left: 3%;
+  }
+  .bord_recherche {
+    margin-left: 22%;
+  }
+  .bloque3, .bloque4{
+    flex-wrap: wrap;
+  }
+  .card1, .card2 {
+    width: 530px;
+    height: 350px;
+  }
+  .carte1, .carte2, .carte3, .carte4{
+    margin-bottom: 10px;
+  }
+}
+
+
