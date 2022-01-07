@@ -11,7 +11,6 @@ header {
   width: 2%;
   height: auto;
   position: relative;
-  top: 10px;
 }
 
 .nav__h1 {
@@ -30,7 +29,7 @@ header {
 
 .nav__hote {
   display: inline-block;
-  margin-left: 26%;
+  margin-left: 20%;
 }
 
 .nav__icon1 {
@@ -38,7 +37,6 @@ header {
   width: 2%;
   height: auto;
   position: relative;
-  top: 10px;
 }
 
 .nav__menu {
@@ -82,7 +80,7 @@ header {
 }
 
 .bloque1 {
-  background-image: url(./images/img1.jpg);
+  background-image: url(https://static.wikia.nocookie.net/lotr/images/a/a0/BlackGate.jpg/revision/latest?cb=20211129065934);
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,7 +89,7 @@ header {
   width: 90%;
   height: 500px;
   font-size: 25px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -113,7 +111,7 @@ header {
 }
 
 .bloque2 {
-  background-image: url(./images/img2.jpg);
+  background-image: url(https://culturellementvotre.fr/wp-content/uploads/2015/02/limbo-inception.jpg);
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -122,7 +120,7 @@ header {
   width: 90%;
   height: 500px;
   font-size: 25px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -137,7 +135,7 @@ header {
 
 }
 .carte1 {
-  background-image: url(./images/carte1.jpeg);
+  background-image: url(https://static.wikia.nocookie.net/starwars/images/9/9d/DSI_hdapproach.png/revision/latest?cb=20130221005853);
   width: 300px;
   height: 450px;
   background-repeat: no-repeat;
@@ -151,5 +149,76 @@ header {
   font-size: 25px;
   font-weight: bold;
 }
+
+.carte2 {
+  background-image: url(https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https%3A%2F%2Fwinteriscoming.net%2Ffiles%2F2017%2F04%2Fcastle-black-the-wall-game-of-thrones.jpg);
+  width: 300px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.carte3 {
+  background-image: url(https://static.turbosquid.com/Preview/2020/04/24__04_54_48/blackhole_aaa.jpgA97EF07B-16D5-41E4-8D71-4D0F4249FE13Large.jpg);
+  width: 300px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.carte4 {
+  background-image: url(https://img.20mn.fr/s6haU-lHR3abQH5yF0p75Q/830x532_mordor-seigneur-anneaux.jpg);
+  width: 300px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+
+.card1 {
+  background-image: url(https://resize.prod.femina.ladmedia.fr/rblr/1401,978/img/var/2021-04/titanicepave.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card2 {
+  background-image: url(https://media.vanityfair.fr/photos/60d36f6805c33897d1bd386f/16:9/w_1280,c_limit/vf_main_shining_8623.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+
 
 /*# sourceMappingURL=style.css.map */
