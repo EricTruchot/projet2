@@ -7,6 +7,6 @@ projet2 comprend 4 branche:
 -Flexbox
 -Bootstrap
 
-<span style="color: ##e84118">La branche Bootstrap est la plus récente,</span> son code comprend un ensemble des technique presedente.
+**La branche Bootstrap est la plus récente**, son code comprend un ensemble des technique précedente.
 
-Les mediaqueries sont reglé pour modifié la page sous 700px de large, <span style="color: ##e84118">a regrader en 699px ou en plein ecran </span> pour la meilleur presentation.
+Les mediaqueries sont reglé pour modifié la page sous 700px de large, **a regrader en 699px ou en plein ecran** pour la meilleur presentation.
