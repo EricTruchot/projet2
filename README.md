@@ -2,6 +2,8 @@
 
 https://erictruchot.github.io/projet2/
 
+Recréer la page dacceuil Airbnb en statique.
+
 projet2 comprend 4 branches:
 
 - Main
